@@ -1,12 +1,17 @@
-import React from 'react';
-import './App.css';
+
+import React from 'react'
+import { Routes, Route } from 'react-router-dom'
+import Home from './routes/Home'
+
 
 function App() {
   return (
-    <main>
-      React⚛️ + Vite⚡ + Replit🌀
-    </main>
-  );
+    <>
+      <Routes>
+        <Route path='/' element={<Home />} />
+      </Routes>
+    </>
+  )
 }
 
 export default App;
