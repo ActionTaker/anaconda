@@ -18,7 +18,7 @@ const Navbar = () => {
               <Link to='/'>DOCS</Link>
             </li>
             <li>
-              <Link to='/'>LAUNCH APP</Link>
+              <Link to='/Launch/Stake'>LAUNCH APP</Link>
             </li>
           </ul>
           <div className='hamburger' onClick={handleClick}>

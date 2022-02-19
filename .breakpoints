@@ -3,9 +3,17 @@
     "src/components/Navbar.jsx": [
       {
         "id": "4cb12902-16e3-4dc4-b3ea-7e8405cb6716",
-        "line": 7,
-        "version": 655,
-        "index": 174
+        "line": 8,
+        "version": 861,
+        "index": 206
+      }
+    ],
+    "src/routes/Launch.jsx": [
+      {
+        "id": "93e1c54e-983e-42d7-ae87-a0a1e1e8f2d8",
+        "line": 11,
+        "version": 8,
+        "index": 122
       }
     ]
   }
