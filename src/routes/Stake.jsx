@@ -48,7 +48,7 @@ const Stake = () => {
       </div>
       <div className="stakebox">
         <ul className="stakeoption">
-          <li className="active">STAKE</li>
+          <li className="activebtn">STAKE</li>
           <li>UNSTAKE</li>
           <li>REWARD</li>
         </ul>
