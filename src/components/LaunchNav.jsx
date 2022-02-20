@@ -10,20 +10,20 @@ const LaunchNav = () => {
     <div>
     <div className='navbar'>
       <Link to='/'><h1>ANCD</h1></Link>
-      <span className="btn">CONNECT WALLET</span>
+      <span className="btnnav">CONNECT WALLET</span>
     </div>
     <div>
       <ul className='selection'>
-            <li className={menu == "stake" &&'active'}>
+            <li className={menu == "stake" &&'activebtn'}>
               <Link to='/Launch/Stake' onClick={() => setMenu("stake")}>STAKE</Link>
             </li>
-            <li className={menu == "bond" &&'active'}>
+            <li className={menu == "bond" &&'activebtn'}>
               <Link to='/Launch/Bond' onClick={() => setMenu("bond")}>BOND</Link>
             </li>
-            <li className={menu == "borrow" &&'active'}>
+            <li className={menu == "borrow" &&'activebtn'}>
               <Link to='/Launch/Borrow' onClick={() => setMenu("borrow")}>BORROW</Link>
             </li>
-            <li className={menu == "deposit" &&'active'}>
+            <li className={menu == "deposit" &&'activebtn'}>
               <Link to='/Launch/Deposit' onClick={() => setMenu("deposit")}>DEPOSIT</Link>
             </li>
           </ul>

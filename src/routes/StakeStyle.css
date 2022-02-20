@@ -1,0 +1,157 @@
+.stake{
+  max-width: 700px;
+  width:90%;
+  margin:auto;
+}
+.myround{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.myround ul{
+  display: flex;
+  justify-content: space-between;
+}
+.myroundl{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.s{
+  font-size:30px;
+}
+.outer{
+  position: relative;
+  height:100%;
+  width:100%;
+  background-color:rgb(182, 182, 182);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 90%;
+  width:90%;
+  background-color:black;
+  border-radius: 50%;
+}
+.btw{
+  flex-basis: 5%;
+  padding-bottom: 45%
+}
+.round{
+  width: 200px;
+  height:200px;
+}
+.myround{
+  flex-basis:45%;
+  
+}
+.roundbox{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.info{
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+  border: 1px solid #777;
+  margin-top: 20px;
+  padding:5% 10%;
+}
+.info h1{
+  font-size:1.5rem;
+  font-weight:200;
+
+}
+.balancebox{
+  margin:10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.balance{
+  font-size:2.5rem;
+}
+.percent{
+  color:rgb(160, 160, 160);
+  padding-top:20px;
+}
+.invested{
+  display: flex;
+  justify-content: space-between;
+}
+.earned{
+  display: flex;
+  justify-content: space-between;
+}
+.stakebox{
+  border-radius: 0 0 10px 10px;
+  border: 1px solid #777;
+  border-top: 0;
+}
+.stakeoption{
+  padding: 10px 0;
+  display: flex;
+  border-radius: 10px;
+  justify-content: center;
+}
+.stakeoption li{
+  padding:0 2%;
+  border-radius: 5px;
+}
+.active{
+  background: #7d7d7d;
+}
+.spbt{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom:30px;
+}
+.spbt li
+{
+  font-size:1.5rem;
+  font-weight:300;
+}
+.stakesection{
+  padding:5% 10%;
+}
+.btn-round{
+  margin: 10px 0;
+  border-radius: 20px;
+  text-align: center;
+  padding: 12px 32px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+.btn-round:hover {
+  background: rgba(255,255,255, .2);
+}
+.input{
+  width:100%;
+  background:#ffffff;
+  border:0;
+  height:30px;
+  border-radius: 20px;
+}
+input::placeholder {
+  color: rgb(95, 95, 95);
+  text-align: center;
+}
+@media screen and (max-width:700px) {
+    .round{
+  width: 150px;
+  height:150px;
+}
+
+}

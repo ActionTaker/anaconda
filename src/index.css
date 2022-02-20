@@ -6,7 +6,7 @@
   padding: 0;
 }
 
-h1,h2, h3, span, h4,p,a {
+h1,h2,li,span, h3, span, h4,p,a {
   color: #fff;
 }
 
@@ -18,7 +18,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background: black;
+  background: rgb(10, 10, 10);
 }
 ul {
   list-style-type: none;
