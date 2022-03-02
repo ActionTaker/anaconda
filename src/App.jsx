@@ -3,20 +3,18 @@ import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Home from './routes/Home'
 import Launch from './routes/Launch'
-import useState from 'react-hook-use-state'
+import {Provider} from './context/Context'
+
 
 function App() {
  
   return (
-    <div>
-
+      <Provider>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/Launch/*' element={<Launch />} />
       </Routes>
-    
-    </div>
+      </Provider>
+      
   )
-}
-
-export default App;
+}export default App;

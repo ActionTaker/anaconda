@@ -9,7 +9,7 @@ import { Routes, Route } from 'react-router-dom'
 
 const Launch = () => {
   return (
-    <div>
+    <div className="appmain">
       <LaunchNav/>
       <Routes>
           <Route path='Stake' element={<Stake/>} />

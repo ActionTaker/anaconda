@@ -1,16 +1,19 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './LaunchNavStyle.css'
-import useState from 'react-hook-use-state'
+import {Context} from '../context/Context'
 
 
 const LaunchNav = () => {
-  const [menu, setMenu] = useState("stake")
+  const [menu, setMenu] = React.useState("stake")
+  const {connectWallet, currentAccount} = React.useContext(Context)
+
+  console.log({connectWallet, currentAccount})
   return (
     <div>
     <div className='navbar'>
       <Link to='/'><h1>ANCD</h1></Link>
-      <span className="btnnav">CONNECT WALLET</span>
+      <span className="btnnav" onClick={() => connectWallet()}>CONNECT WALLET</span>
     </div>
     <div>
       <ul className='selection'>

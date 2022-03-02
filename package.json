@@ -10,6 +10,7 @@
     "@types/react": "^17.0.13",
     "@types/react-dom": "^17.0.8",
     "@vitejs/plugin-react-refresh": "^1.3.0",
+    "create-use-context": "^1.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-hook-use-state": "^1.1.0",
